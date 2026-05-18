@@ -30,7 +30,7 @@ public class HelloApplication extends Application {
 
 
     @Override
-    public void start(Stage stage){
+    public void start(Stage stage) throws IOException{
         //CREATE COMPONENTS
         Label titleLabel = new Label("Welcome to EChALE STEM Loteria!");
         titleLabel.setFont(new Font(20));
